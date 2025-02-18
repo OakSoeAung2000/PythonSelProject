@@ -1,21 +1,21 @@
 import time
 
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
+@pytest.mark.usefixtures("setup")
 class TestOne:
 
-    def test_e2e(self):
 
 
-        driver = webdriver.Chrome()
-        driver.get("https://rahulshettyacademy.com/angularpractice/")
-        driver.implicitly_wait(5)
+    def test_e2e(self, setup):
 
-        driver.find_element(By.CSS_SELECTOR, "a[href*='shop']").click()
-        products = driver.find_elements(By.XPATH, "//div[@class='card h-100']")
+
+        setup.find_element(By.CSS_SELECTOR, "a[href*='shop']").click()
+        products = self.driver.find_elements(By.XPATH, "//div[@class='card h-100']")
 
         for product in products:
             pname = product.find_element(By.XPATH, "div/h4/a").text
