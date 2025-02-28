@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ca5abdf-0186-4f11-bf39-565f663117ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/CheckoutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/CheckoutPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/ConfirmPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/ConfirmPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OakSoeAung2000&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OakSoeAung2000/PythonSelProject.git&quot;,
+    &quot;accountId&quot;: &quot;38ffdbf3-bd6d-4a71-8338-9d5b861a32cc&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,6 +49,7 @@
     "Python tests.Python tests in test_e3.py.executor": "Run",
     "Python.conftest.executor": "Run",
     "Python.excelDemo.executor": "Run",
+    "Python.upload.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -50,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonSelProject" />
       <recent name="E:\PythonSelProject\tests" />
       <recent name="E:\PythonSelProject\utilities" />
     </key>
